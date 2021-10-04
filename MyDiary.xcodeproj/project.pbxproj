@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051DB24F23B38182003122A7 /* NSColor+MyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 051DB24D23B38181003122A7 /* NSColor+MyColor.m */; };
+		0543815823A20CF90073E58A /* CAShapeLayer+MyShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543815723A20CF90073E58A /* CAShapeLayer+MyShapeLayer.m */; };
+		0543815B23A20F4B0073E58A /* NSBezierPath+MyBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543815A23A20F4B0073E58A /* NSBezierPath+MyBezierPath.m */; };
+		054F70C223A11E240068A080 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 054F70C123A11E240068A080 /* AppDelegate.m */; };
+		054F70C423A11E240068A080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054F70C323A11E240068A080 /* Assets.xcassets */; };
+		054F70C723A11E240068A080 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054F70C523A11E240068A080 /* MainMenu.xib */; };
+		054F70CA23A11E240068A080 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 054F70C923A11E240068A080 /* main.m */; };
+		054F70D323A11F3D0068A080 /* UAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 054F70D223A11F3D0068A080 /* UAView.m */; };
+		054F70D623A1D73A0068A080 /* FlippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 054F70D523A1D73A0068A080 /* FlippedView.m */; };
+		055FCAF123A352A400E8FCDC /* UAItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 055FCAF023A352A400E8FCDC /* UAItemView.m */; };
+		055FCAF423A4805D00E8FCDC /* UACalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 055FCAF323A4805D00E8FCDC /* UACalendar.m */; };
+		055FCAF823A4B07800E8FCDC /* UACalenderDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 055FCAF723A4B07800E8FCDC /* UACalenderDate.m */; };
+		055FCAFB23A4B0E100E8FCDC /* UADateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 055FCAFA23A4B0E100E8FCDC /* UADateUtil.m */; };
+		05C7798A23A9D1970046522A /* holiday.json in Resources */ = {isa = PBXBuildFile; fileRef = 05C7798923A9D1960046522A /* holiday.json */; };
+		05C7798F23AA68250046522A /* UATextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C7798E23AA68240046522A /* UATextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		051DB24D23B38181003122A7 /* NSColor+MyColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+MyColor.m"; sourceTree = "<group>"; };
+		051DB24E23B38181003122A7 /* NSColor+MyColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+MyColor.h"; sourceTree = "<group>"; };
+		0543815623A20CF90073E58A /* CAShapeLayer+MyShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+MyShapeLayer.h"; sourceTree = "<group>"; };
+		0543815723A20CF90073E58A /* CAShapeLayer+MyShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+MyShapeLayer.m"; sourceTree = "<group>"; };
+		0543815923A20F4B0073E58A /* NSBezierPath+MyBezierPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+MyBezierPath.h"; sourceTree = "<group>"; };
+		0543815A23A20F4B0073E58A /* NSBezierPath+MyBezierPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+MyBezierPath.m"; sourceTree = "<group>"; };
+		054F70BD23A11E240068A080 /* MyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		054F70C023A11E240068A080 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		054F70C123A11E240068A080 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		054F70C323A11E240068A080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		054F70C623A11E240068A080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		054F70C823A11E240068A080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054F70C923A11E240068A080 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		054F70CB23A11E240068A080 /* MyDiary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyDiary.entitlements; sourceTree = "<group>"; };
+		054F70D123A11F3D0068A080 /* UAView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UAView.h; sourceTree = "<group>"; };
+		054F70D223A11F3D0068A080 /* UAView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UAView.m; sourceTree = "<group>"; };
+		054F70D423A1D73A0068A080 /* FlippedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlippedView.h; sourceTree = "<group>"; };
+		054F70D523A1D73A0068A080 /* FlippedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlippedView.m; sourceTree = "<group>"; };
+		055FCAEF23A352A400E8FCDC /* UAItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UAItemView.h; sourceTree = "<group>"; };
+		055FCAF023A352A400E8FCDC /* UAItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UAItemView.m; sourceTree = "<group>"; };
+		055FCAF223A4805D00E8FCDC /* UACalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UACalendar.h; sourceTree = "<group>"; };
+		055FCAF323A4805D00E8FCDC /* UACalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UACalendar.m; sourceTree = "<group>"; };
+		055FCAF523A480FF00E8FCDC /* _UAConstants(not use).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_UAConstants(not use).h"; sourceTree = "<group>"; };
+		055FCAF623A4B07800E8FCDC /* UACalenderDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UACalenderDate.h; sourceTree = "<group>"; };
+		055FCAF723A4B07800E8FCDC /* UACalenderDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UACalenderDate.m; sourceTree = "<group>"; };
+		055FCAF923A4B0E100E8FCDC /* UADateUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UADateUtil.h; sourceTree = "<group>"; };
+		055FCAFA23A4B0E100E8FCDC /* UADateUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UADateUtil.m; sourceTree = "<group>"; };
+		05C7798923A9D1960046522A /* holiday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = holiday.json; sourceTree = SOURCE_ROOT; };
+		05C7798D23AA68240046522A /* UATextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UATextView.h; sourceTree = "<group>"; };
+		05C7798E23AA68240046522A /* UATextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UATextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054F70BA23A11E240068A080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054F70B423A11E240068A080 = {
+			isa = PBXGroup;
+			children = (
+				054F70BF23A11E240068A080 /* MyDiary */,
+				054F70BE23A11E240068A080 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		054F70BE23A11E240068A080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				054F70BD23A11E240068A080 /* MyDiary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		054F70BF23A11E240068A080 /* MyDiary */ = {
+			isa = PBXGroup;
+			children = (
+				05C7798923A9D1960046522A /* holiday.json */,
+				054F70C023A11E240068A080 /* AppDelegate.h */,
+				054F70C123A11E240068A080 /* AppDelegate.m */,
+				054F70D123A11F3D0068A080 /* UAView.h */,
+				054F70D223A11F3D0068A080 /* UAView.m */,
+				055FCAEF23A352A400E8FCDC /* UAItemView.h */,
+				055FCAF023A352A400E8FCDC /* UAItemView.m */,
+				05C7798D23AA68240046522A /* UATextView.h */,
+				05C7798E23AA68240046522A /* UATextView.m */,
+				055FCAF223A4805D00E8FCDC /* UACalendar.h */,
+				055FCAF323A4805D00E8FCDC /* UACalendar.m */,
+				055FCAF623A4B07800E8FCDC /* UACalenderDate.h */,
+				055FCAF723A4B07800E8FCDC /* UACalenderDate.m */,
+				055FCAF923A4B0E100E8FCDC /* UADateUtil.h */,
+				055FCAFA23A4B0E100E8FCDC /* UADateUtil.m */,
+				054F70D423A1D73A0068A080 /* FlippedView.h */,
+				054F70D523A1D73A0068A080 /* FlippedView.m */,
+				051DB24E23B38181003122A7 /* NSColor+MyColor.h */,
+				051DB24D23B38181003122A7 /* NSColor+MyColor.m */,
+				0543815623A20CF90073E58A /* CAShapeLayer+MyShapeLayer.h */,
+				0543815723A20CF90073E58A /* CAShapeLayer+MyShapeLayer.m */,
+				0543815923A20F4B0073E58A /* NSBezierPath+MyBezierPath.h */,
+				0543815A23A20F4B0073E58A /* NSBezierPath+MyBezierPath.m */,
+				055FCAF523A480FF00E8FCDC /* _UAConstants(not use).h */,
+				054F70C323A11E240068A080 /* Assets.xcassets */,
+				054F70C523A11E240068A080 /* MainMenu.xib */,
+				054F70C823A11E240068A080 /* Info.plist */,
+				054F70C923A11E240068A080 /* main.m */,
+				054F70CB23A11E240068A080 /* MyDiary.entitlements */,
+			);
+			path = MyDiary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		054F70BC23A11E240068A080 /* MyDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054F70CE23A11E240068A080 /* Build configuration list for PBXNativeTarget "MyDiary" */;
+			buildPhases = (
+				054F70B923A11E240068A080 /* Sources */,
+				054F70BA23A11E240068A080 /* Frameworks */,
+				054F70BB23A11E240068A080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDiary;
+			productName = MyDiary;
+			productReference = 054F70BD23A11E240068A080 /* MyDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		054F70B523A11E240068A080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "権兵衛";
+				TargetAttributes = {
+					054F70BC23A11E240068A080 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 054F70B823A11E240068A080 /* Build configuration list for PBXProject "MyDiary" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 054F70B423A11E240068A080;
+			productRefGroup = 054F70BE23A11E240068A080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				054F70BC23A11E240068A080 /* MyDiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		054F70BB23A11E240068A080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054F70C423A11E240068A080 /* Assets.xcassets in Resources */,
+				054F70C723A11E240068A080 /* MainMenu.xib in Resources */,
+				05C7798A23A9D1970046522A /* holiday.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		054F70B923A11E240068A080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055FCAFB23A4B0E100E8FCDC /* UADateUtil.m in Sources */,
+				054F70CA23A11E240068A080 /* main.m in Sources */,
+				054F70C223A11E240068A080 /* AppDelegate.m in Sources */,
+				05C7798F23AA68250046522A /* UATextView.m in Sources */,
+				051DB24F23B38182003122A7 /* NSColor+MyColor.m in Sources */,
+				0543815B23A20F4B0073E58A /* NSBezierPath+MyBezierPath.m in Sources */,
+				0543815823A20CF90073E58A /* CAShapeLayer+MyShapeLayer.m in Sources */,
+				054F70D323A11F3D0068A080 /* UAView.m in Sources */,
+				054F70D623A1D73A0068A080 /* FlippedView.m in Sources */,
+				055FCAF123A352A400E8FCDC /* UAItemView.m in Sources */,
+				055FCAF423A4805D00E8FCDC /* UACalendar.m in Sources */,
+				055FCAF823A4B07800E8FCDC /* UACalenderDate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		054F70C523A11E240068A080 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054F70C623A11E240068A080 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		054F70CC23A11E240068A080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		054F70CD23A11E240068A080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		054F70CF23A11E240068A080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyDiary/MyDiary.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikomokaru.MyDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		054F70D023A11E240068A080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyDiary/MyDiary.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikomokaru.MyDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		054F70B823A11E240068A080 /* Build configuration list for PBXProject "MyDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054F70CC23A11E240068A080 /* Debug */,
+				054F70CD23A11E240068A080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		054F70CE23A11E240068A080 /* Build configuration list for PBXNativeTarget "MyDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054F70CF23A11E240068A080 /* Debug */,
+				054F70D023A11E240068A080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 054F70B523A11E240068A080 /* Project object */;
+}
