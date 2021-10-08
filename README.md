@@ -1,5 +1,5 @@
 ## macOS C84_MyCalendar
-Confirmed operation: MacOS 10.14.6 / Xcode 11.3.1 aaaaaa
+Confirmed operation: MacOS 10.14.6 / Xcode 11.3.1
 
 Display dates of one month. Starts Monday and ends on Sunday. A number of weeks will be 5 or 6 weeks. The beginning of a month is filled with the last days of the previous month, and the end of the month is filled with the first days of the following month.
 
