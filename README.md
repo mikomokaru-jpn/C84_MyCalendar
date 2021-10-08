@@ -9,3 +9,4 @@ Saturdays, Sundays and public holidays change the color of the date. Holidays ar
 
 
 <img src="http://mikomokaru.sakura.ne.jp/data/01/calendar.png" alt="calendar" title="calendar" width="300">
+
